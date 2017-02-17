@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Mocha Tests</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.css" />
+</head>
+<body>
+  <div id="mocha"></div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/3.5.0/chai.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.js"></script>
+  <script src="../public/js/stringClassExt.js"></script>
+  <script>mocha.setup('bdd')</script>
+  <script src="./stringClassExtSpec.js"></script>
+  <script>
+    mocha.run();
+  </script>
+</body>
+</html>
